@@ -7,14 +7,20 @@
 }
 
 .extrahuge {
-    font-size: 69px; 
+    font-size: 88px; 
 }
 
 .but{
     background-color:aquamarine;
+
 }
 
 .deco{
     color:white;
     background-color:green;
 }
+
+.all{
+    text-align: center;
+}
+
