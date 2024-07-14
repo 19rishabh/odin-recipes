@@ -1,59 +1,73 @@
-.full{
-    background:rgb(196, 36, 36);
-    text-align:center;
-} 
+.full {
+  background: #f0f0f0; /*light gray */
+  text-align: center;
+}
 
-.container{
-    box-sizing: border-box ;
-    width:1100px;
-    height: 800px;
-    background-color: rgba(238, 255, 0, 0.801);
-    margin:45px auto;
-    padding: 20px;
-    border: 1px solid black;
+.container {
+  box-sizing: border-box;
+  width: 1100px;
+  height: 800px;
+  background-color: #fff; 
+  margin: 45px auto;
+  padding: 20px;
+  border: 1px solid #ddd; /* Light gray*/
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-.main{
-    height: 700px;
+
+.main {
+  height: 700px;
 }
+
 .extrahuge {
-    font-size: 88px; 
-    text-align: center;
-    padding:28px;
-    margin: 10px;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  color: #333; /* Dark gray */
 }
 
 .huge {
-    font-size: 50px; 
-    margin:15px;
-    text-align: center;
+  font-size: 40px;
+  margin: 15px;
+  text-align: center;
+  color: #555; /* Medium gray */
 }
 
-.but{
-    font-size: 30px;
-    background-color:rgb(245, 5, 5);
-    display: block; /* Make the button a block element */
-    margin: 45px auto; /* Center the button horizontally and add some vertical space */
-    padding: 10px;
-    color:white;
+.but {
+  font-size: 20px;
+  background-color: #007bff; /* Blue */
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.food{
-    height:1500px;
+.but:hover {
+  background-color: #0056b3; /* Dark blue */
 }
 
-.data{
-    font-size: 35px;
-    margin:15px;
+.food {
+  height: 1500px;
 }
 
-.bullet{
-    /*list-style-type: none;  Remove the bullet points */
-    text-align: left;
+.data {
+  font-size: 30px;
+  margin: 15px;
+  color: #666; /* Light gray */
 }
 
-.deco{
-    color:white;
-    background-color:green;
+.bullet {
+  list-style-type: none;
+  text-align: left;
+}
+
+.deco {
+  color: #fff;
+  background-color: #3498db; /* Blue */
+  background-image: linear-gradient(to right, #3498db, #2980b9);
 }
 
 
